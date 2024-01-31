@@ -8,6 +8,7 @@ window.title("FLAMES")
 window.name1 = StringVar()
 window.name2 = StringVar()
 
+#UI Design
 name_1 = Label(window, text="enter 1st name :", font=("times new roman", 15, "bold")).grid(row=0, column=0)
 entry_1 = Entry(window, bd=4, font=("", 15, "bold"), textvariable=window.name1).grid(row=0, column=1, padx=30, pady=40)
 
